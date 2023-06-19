@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Manrope';
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto
+}
+
+body {
+    background-color: #e6ebf0;
+}
+
+.header .container .menu {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+
+.header .container .menu .odin {
+    display: flex;
+    margin-left: 100px;
+}
+
+.header .container .menu .odin :nth-child(2) {
+    margin-left: 50px;
+}
+
+.header .container .menu .odin :nth-child(3) {
+    margin-left: 50px;
+}
+
+.header .container .menu .odin :nth-child(4) {
+    margin-left: 50px;
+}
+
+.header .container .menu .odin :nth-child(5) {
+    margin-left: 50px;
+}
+
+.header .container .menu .dva img {
+    width: 110px;
+    height: 110px;
+}
+
+.header .container .menu .odin .item a {
+    font-family: 'Manrope';
+    text-decoration: none;
+    color: #15243a;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+.header .header-info {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-info .text h2 {
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 62px;
+    color: #07172e;
+}
+
+.header .header-info .text p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #3c4148;
+    width: 530px;
+    margin-top: 17px;
+}
+
+.header .header-info .text .button {
+    margin-top: 40px;
+}
+
+.header .header-info .text .button a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 70px 20px 70px;
+    background-color: #3586ff;
+    font-size: 18px;
+    border-radius: 20px;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cartu {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f4f8;
+    border-radius: 20px;
+    width: 360px;
+    height: 350px;
+}
+
+.curs {
+    margin-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.curs .text h1 {
+    padding-bottom: 50px;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+}
+
+.header .curs .button {
+    margin-top: 80px;
+    background-color: #3586ff;
+    width: 30%;
+    outline: 2px solid #3586ff;
+    border-radius: 20px;
+    outline-offset: 4px;
+}
+
+.header .curs .button a {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.curs .card p {
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+.besplatno {
+    padding-bottom: 100px;
+}
+
+.prymoygol {
+    background-size: cover;
+    border-radius: 30px;
+    padding: 150px;
+    background-image: url(./img/5.jpg);
+}
+
+.prymoygol .tekst {
+    width: 50%;
+}
+
+.prymoygol .tekst h2 {
+    font-weight: 900;
+    color: #07172e;
+    margin: 0;
+    font-size: 38px;
+    font-family: 'Manrope';
+}
+
+.prymoygol .tekst p {
+    margin-top: 15px;
+    font-size: 18px;
+    padding-bottom: 60px;
+    font-weight: 400;
+    color: #3c4148;
+    font-family: 'Manrope';
+}
+
+.prymoygol .knpk a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 70px 20px 70px;
+    background-color: #3586ff;
+    font-size: 18px;
+    border-radius: 20px;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+.stretch .container{
+    display: flex;
+    justify-content: space-around;
+}
+.stretch img{
+    mix-blend-mode: multiply;
+}
+.stretch .texxt{
+    margin-left: 40px;
+}
+.stretch .texxt h3{
+    color: #07172e;
+    font-size: 18px;
+    line-height: 42px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+.stretch .texxt h2{
+    color: #07172e;
+    font-size: 42px;
+    font-weight: 800;
+    margin-top: -20px;
+}
+.stretch .texxt .zagolok p{
+    color: #3c4148;
+    font-size: 18px;
+    line-height: 27px;
+    width: 550px;
+}
+.stretch .icoons{
+    display: flex;
+    align-items: center;
+}
+.stretch .icoon{
+    width: 260px;
+    height: 60px;
+    background-color: white;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.stretch .icoon .odin, .dva, h4{
+    font-size: 14px;
+    font-weight: 700;
+    color: #07172e;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.stretch .texxt .price{
+    color: #07172e;
+    font-size: 42px;
+    font-weight: 800;
+}
+.stretch .button{
+    margin-right: 45px;
+}
+.stretch a{
+    text-decoration: none;
+    color: white;
+    padding: 17px 75px 17px 75px;
+    background-color: #3586ff;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 1s;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+}
+.stretch .cena{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.trainers .icoons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.trainers .icoons h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #07172e;
+}
+.trainers .icoons h4{
+    font-size: 12px;
+    line-height: 17px;
+    color: #3c4148;
+
+}
+.trainers .icoon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f4f8;
+    border-radius: 20px;
+    width: 260px;
+    height: 275px;
+    margin-right: 40px;
+}
+.trainers .icoon img{
+    height: 190px;
+}
+.trainers .icoon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f4f8;
+    border-radius: 20px;
+    width: 260px;
+    height: 275px;
+}
+.trainers .knp{
+    margin-right: 45px;
+    margin-top: 80px;
+}
+.trainers a{
+    text-decoration: none;
+    color: #07172e;
+    padding: 10px 40px;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 1s;
+    margin-right: 40px;
+    font-weight: 700;
+}
+.trainers .info p{
+    width: 260px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #07172e;
+    margin-top: -60px;
+}
+.trainers .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.fitline {
+    width: 1200px;
+    height: 650px;
+    margin-top: 40px;
+    background-color: #f1f4f8;
+    display: flex;
+    border-radius: 40px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fitline .infa {
+    margin-left: 50px;
+    width: 40%;
+    margin-top: 30px;
+}
+
+.fitline .infa h2 {
+    font-family: 'Manrope';
+    font-size: 40px;
+    font-weight: 900;
+    color: #07172e;
+}
+
+.fitline .infa p {
+    font-family: 'Manrope';
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: 400;
+    color: #3c4148;
+    padding-bottom: 60px;
+}
+.fitline .infa .button{
+    width: 300px;
+    background-color: #3586ff;
+    border-radius: 20px;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+}
+.fitline .infa .button a{
+    font-family: 'Manrope';
+    display: flex;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.fitline .infa .photo{
+    width: 50%;
+}
+.fitline .infa .button a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px 20px 40px;
+    background-color: #3586ff;
+    font-size: 18px;
+    border-radius: 20px;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+}
+.fitline img{
+    margin-right: 40px;
+}
+
+
+.kak_rabot{
+    margin-top: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    align-items: center;
+}
+.kak_rabot .textt h2{
+    font-family: 'Manrope';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #07172e;
+    box-sizing: border-box;
+}
+.kak_rabot .container .punkts{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.kak_rabot .container .punkts .punkt{
+    width: 250px;
+    
+}
+.kak_rabot .container .punkts .punkt .kv{
+    background-color: #3586ff;
+    display: flex;
+    width: 70px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.kak_rabot .container .punkts .punkt .kv p{
+    margin-top: 0;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+}
+.kak_rabot .container .punkts .punkt h3{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 800;
+    color: #07172e;
+}
+.kak_rabot .container .punkts .punkt p{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #3c4148;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.podval{
+    padding-bottom: 100px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.podval h4{
+    font-size: 15px;
+    font-weight: 400;
+    color: #07172e;
+}
+.podval .ceti{
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+    box-sizing: border-box;
+    display: flex;
+}
+.podval a{
+    font-weight: 400;
+    font-size: 15px;
+    color: #3c4148;
+    text-decoration: underline;
+}
+
+
+
+
+
